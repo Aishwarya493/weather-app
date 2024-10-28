@@ -1,0 +1,54 @@
+body {
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#weather-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+#temp-div p {
+    font-size: 48px;
+}
+
+#hourly-forecast {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.hourly-item {
+    margin: 5px;
+    text-align: center;
+}
